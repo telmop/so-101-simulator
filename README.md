@@ -27,14 +27,14 @@ ln -sf \
 The first time you run it, it may take a minute or two to start.
 
 Once the simulation window runs, you can control it using the following keys:
-* Arrow keys: Shoulder pan and lift
-* K / L: Elbow flex
-* ; / ': Wrist flex
-* - / =: Wrist roll
-* . / ,: Gripper
-* 9: Reset robot targets
-* P: Save demonstration and exit
-* ESC: Discard demonstration and exit
+* `Arrow keys`: Shoulder pan and lift
+* `K / L`: Elbow flex
+* `; / '`: Wrist flex
+* `- / =`: Wrist roll
+* `. / ,`: Gripper
+* `9`: Reset robot targets
+* `P`: Save demonstration and exit
+* `ESC`: Discard demonstration and exit
 
 The key bindings are a bit arbitrary, I know. They were picked to not conflict with MuJoCo's key bindings.
 
