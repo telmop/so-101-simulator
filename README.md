@@ -37,3 +37,17 @@ Once the simulation window runs, you can control it using the following keys:
 * ESC: Discard demonstration and exit
 
 The key bindings are a bit arbitrary, I know. They were picked to not conflict with MuJoCo's key bindings.
+
+3. After you get the hang of the robot, control it and move the red cube into the box. Once you're done, press `P` to save your movements. The simulation records your movements, as well as two video feeds: one from a camera on the robot arm, the other from a(n invisible) camera on top of the robot.
+
+Repeat this step 20-50x. The more, the better your robot will be.
+
+If you make a mistake and want to delete some episodes, run:
+```bash
+uv run lerobot-edit-dataset \
+    --repo_id local/so101_pick_cube \
+    --root ./data/so101_pick_cube \
+    --new_root ./data/so101_pick_cube \
+    --operation.type delete_episodes \
+    --operation.episode_indices "[1, 3, 7, 10]"
+```
