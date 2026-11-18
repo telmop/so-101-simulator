@@ -4,7 +4,10 @@ version = "0.1.0"
 description = "Train SO-101 without the hardware"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "lerobot[dataset]>=0.7.0",
+    "mujoco>=4.0.1",
+]
 
 [dependency-groups]
 dev = [
