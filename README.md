@@ -51,3 +51,9 @@ uv run lerobot-edit-dataset \
     --operation.type delete_episodes \
     --operation.episode_indices "[1, 3, 7, 10]"
 ```
+
+4. When you have enough episodes (at the very least, 20), you are ready to train your own model! This is quite simple using lerobot:
+```bash
+DEVICE=mps ./train.sh
+```
+Where `DEVICE` can be `mps` if you have an M-series Mac, `cuda` if you have a GPU, and `cpu` (the default) otherwise.

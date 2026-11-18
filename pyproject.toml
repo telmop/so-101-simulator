@@ -5,7 +5,7 @@ description = "Train SO-101 without the hardware"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "lerobot[dataset]>=0.7.0",
+    "lerobot[dataset,training]>=0.7.0",
     "mujoco>=4.0.1",
 ]
 
