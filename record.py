@@ -29,8 +29,8 @@ JOINT_KEYS = {
     "shoulder_pan": (glfw.KEY_RIGHT, glfw.KEY_LEFT),
     "shoulder_lift": (glfw.KEY_UP, glfw.KEY_DOWN),
     "elbow_flex": (glfw.KEY_K, glfw.KEY_L),
-    "wrist_flex": (glfw.KEY_SEMICOLON, glfw.KEY_APOSTROPHE),
-    "wrist_roll": (glfw.KEY_MINUS, glfw.KEY_EQUAL),
+    "wrist_flex": (glfw.KEY_V, glfw.KEY_B),
+    "wrist_roll": (glfw.KEY_7, glfw.KEY_8),
     "gripper": (glfw.KEY_PERIOD, glfw.KEY_COMMA),
 }
 
@@ -255,10 +255,10 @@ def main():
     print()
     print("Arrow keys: Shoulder pan and lift")
     print("K / L: Elbow flex")
-    print("; / ': Wrist flex")
-    print("- / =: Wrist roll")
+    print("V / B: Wrist flex")
+    print("7 / 8: Wrist roll")
     print(". / ,: Gripper")
-    print("0: Reset robot targets")
+    print("9: Reset robot targets")
     print()
     print("P: Save demonstration and exit")
     print("ESC: Discard demonstration and exit")

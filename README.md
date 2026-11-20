@@ -29,10 +29,10 @@ The first time you run it, it may take a minute or two to start.
 Once the simulation window runs, you can control it using the following keys:
 * `Arrow keys`: Shoulder pan and lift
 * `K / L`: Elbow flex
-* `; / '`: Wrist flex
-* `- / =`: Wrist roll
+* `V / B`: Wrist flex
+* `7 / 8`: Wrist roll
 * `. / ,`: Gripper
-* `9`: Reset robot targets
+* `0`: Reset robot targets
 * `P`: Save demonstration and exit
 * `ESC`: Discard demonstration and exit
 
